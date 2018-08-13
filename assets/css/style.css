@@ -1,0 +1,24 @@
+h1 {
+    color: blue;
+    text-align: center;
+    padding: 20px;
+    background: black;
+    
+}
+
+body {
+    background: bisque;
+    background:url(../images/mario.jpg);
+}
+
+#bottom {
+   position: fixed;
+   left: 1;
+   bottom: 0;
+   width: 100%;  
+   text-align: center;
+   right: 1;
+}
+
+
+
