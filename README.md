@@ -5,4 +5,5 @@ What tied me up for days was figuring out how to reset the "guesses so far" and 
 Also lets say I won 5 times, the score would show 5, but then when I lost, the score went from zero to 6 and vice versa, they were adding
 from one another, so that took some time to sort out. AND THEN every time i guessed a letter wrong, the lose score would go up, when it should
 only go up when you ran out of guesses.  It really does feel rewarding when you get everything to work, even if it is a simple game.
-Here is my link to portfolio https://blznk128.github.io/portfolio.html
+Here is my link to portfolio https://blznk128.github.io/portfolio.html   
+Also, you can open up the console to see what letter js picked.
