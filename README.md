@@ -1,9 +1,10 @@
-# Psychic-Game
+Essentially, the app randomly picks a letter, and the user has to guess which letter the app chose. Put the following text on your page:
+Guess what letter I'm thinking of
+Wins: (# of times the user has guessed the letter correctly)
+Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)
+Guesses Left: (# of guesses left. This will update)
+Your Guesses So Far: (the specific letters that the user typed. Display these until the user either wins or loses.)
+When the player wins, increase the Wins counter and start the game over again (without refreshing the page).
+When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins).
 
-So I cruised through the first half of this asignment pretty quck, I thought I was going to move on to the word guessing game, I was wrong.
-What tied me up for days was figuring out how to reset the "guesses so far" and how to make javascript pick a new letter after every guess.
-Also lets say I won 5 times, the score would show 5, but then when I lost, the score went from zero to 6 and vice versa, they were adding
-from one another, so that took some time to sort out. AND THEN every time i guessed a letter wrong, the lose score would go up, when it should
-only go up when you ran out of guesses.  It really does feel rewarding when you get everything to work, even if it is a simple game.
-Here is my link to portfolio https://blznk128.github.io/portfolio.html   
-Also, you can open up the console to see what letter js picked.
+This application uses javascript to pick a random letter at the start, and the user has a limited amount of guesses to guess that letter correctly. The application keeps track and lets the user know how many guesses they have left, if the user gets it right, the number of guesses resets and they get a point, if they fail to guess the right letter, guesses resets and they get a point in the losses section.
